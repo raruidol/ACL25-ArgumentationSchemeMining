@@ -1,0 +1,259 @@
+You are an 8 class classifier with the goal of classifying the argumentative input into one of the different argumentation scheme families. Argumentation scheme families are defined as follows:
+
+Ad Hominem Arguments:
+
+This family comprises Direct ad Hominem and Inconsistent Commitment arguments defined as follows together with some sample arguments:
+
+Direct Ad Hominem:
+
+"Premise: a is a person of bad character.
+Conclusion: Therefore, a’s argument should not be accepted."
+
+Direct Ad Hominem Argument:
+
+"combat operations in Afghanistan finished in 2014. Mehdi Hasan is living in the past. Mehdi Hasan is massively misrepresenting the Afghanistan situation."
+
+Inconsistent Commitment:
+
+"Initial Commitment Premise : a has claimed or indicated that he is committed to proposition A (generally, or by virtue of what he has said in the past).
+Opposed Commitment Premise : Other evidence in this particular case shows that a is not really committed to A.
+Conclusion: a’s commitments are inconsistent."
+
+Inconsistent Commitment Argument:
+
+"politicians knew. that is the worst part about it, to see politicians this week saying, "I'm shocked at this collapse, shocked it didn't work out the way ... "."
+
+Arguments Based on Cases:
+
+This family comprises Cause to Effect, Established Rule, and Verbal Classification arguments defined as follows together with some sample arguments:
+
+Cause to Effect:
+
+"Major Premise : Generally, if A occurs, then B will (might) occur.
+Minor Premise : In this case, A occurs (might occur).
+Conclusion: Therefore, in this case, B will (might) occur."
+
+Cause to Effect Argument:
+
+"businesses are closing all over the place. the hospitality industry is literally on its knees."
+
+Established Rule:
+"Major Premise : If carrying out types of actions including A is the established rule for x, then (unless the case is an exception), x must carry out A.
+Minor Premise : Carrying out types of actions including A is the established rule for a.
+Conclusion: Therefore, a must carry out A."
+
+Established Rule Argument:
+
+"we should have learned from what happened in Vietnam. we haven't done well but we haven't done as badly as some other countries."
+
+Verbal Classification:
+
+"Individual Premise : a has property F.
+Classification Premise: For all x, if x has property F, then x can be classified as having property G.
+Conclusion: a has property G."
+
+Verbal Classification Argument:
+
+"women get far more abuse than men in social media and black people. Naomi Osaka is a black woman and she gets tremendous abuse, no doubt on social media."
+
+Defeasible Rule-based Arguments:
+
+This family comprises Analogy, Example, and Precedent arguments defined as follows together with some sample arguments:
+
+Analogy:
+
+"Similarity Premise : Generally, case C1 is similar to case C2.
+Base Premise : A is true (false) in case C1.
+Conclusion: A is true (false) in case C2."
+
+Analogy Argument:
+
+"the Afghanistan war is on the same level of a failure as the Iraq war. what we've done in Afghanistan seriously deserves a huge accounting."
+
+Example:
+"Premise : In this particular case, the individual a has property F and also property G.
+Conclusion: Therefore, generally, if x has property F, then it also has property G."
+
+Example Argument:
+
+"teachers have worked so hard over the last few months. the teachers of Sam Unkown's boys have been such a credit."
+
+Precedent:
+"Major Premise : Generally, according to the established rule, if x has property F, then x also has property G.
+Minor Premise : In this legitimate case, a has F but does not have G.
+Conclusion: Therefore, an exception to the rule must be recognized, and the rule appropriately modified or qualified."
+
+Precedent Argument:
+
+"Kevin Collin's report is very in line with what all the other countries similar to Britain and our committees are calling for. Kevin Collins report was very obvious what it was going to report for quite a long time leading up to it."
+
+Discovery Arguments:
+
+This family comprises Best Explanation, Ignorance, and Sign arguments defined as follows together with some sample arguments:
+
+Best Explanation:
+
+"F is a finding or given set of facts.
+E is a satisfactory explanation of F.
+No alternative explanation E1 ... n given so far is as satisfactory as E.
+Therefore, E is plausible, as a hypothesis"
+
+Best Explanation Argument:
+
+"there have been a series of political and strategic failures over a very long period of time that led to here. the current situation has long and deep roots."
+
+Ignorance:
+
+"Major Premise: If A were true, then A would be known to be true.
+Minor Premise : It is not the case that A is known to be true.
+Conclusion: Therefore, A is not true."
+
+Ignorance Argument:
+
+"levelling up is not about investing in our people. we don't know what levelling up is for."
+
+Sign:
+
+"Specific Premise : A (a finding) is true in this situation.
+General Premise : B is generally indicated as true when its sign, A, is true.
+Conclusion: B is true in this situation."
+
+Sign Argument:
+
+"those decisions were flawed in that there was no real understanding of the complexity of what then had to come next. the current situation has long and deep roots."
+
+Popular Acceptance Arguments:
+
+This family comprises Popular Opinion and Popular Practice arguments defined as follows together with some sample arguments:
+
+Popular Opinion:
+
+"General Acceptance Premise : A is generally accepted as true.
+Presumption Premise: If A is generally accepted as true, that gives a reason in favor of A.
+Conclusion: There is a reason in favor of A."
+
+Popular Opinion Argument:
+
+"everybody wanted to talk about mental health. we spent the whole session on mental health."
+
+Popular Practice:
+
+"Major Premise : A is a popular practice among those who are familiar with what is acceptable or not in regard to A.
+Minor Premise: If A is a popular practice among those familiar with what is acceptable or not with regard to A, that gives a reason to think that A is acceptable.
+Conclusion: Therefore, A is acceptable in this case."
+
+Popular Practice Argument:
+
+"Jersey is an area in which customarily French fishermen did fish. the French fishermen in Jersey are not people suddenly turning up saying "Can we fish here?"."
+
+Position to Know Arguments:
+
+This family comprises Expert Opinion, Position to Know, and Witness Testimony arguments defined as follows together with some sample arguments:
+
+Expert Opinion:
+
+"Major Premise: Source E is an expert in subject domain S containing proposition A.
+Minor Premise : E asserts that proposition A is true (false).
+Conclusion: A is true (false)."
+
+Expert Opinion Argument:
+
+"Anthony Costello wishes we had not had lockdowns and followed a much more oppressive policy. Anthony Costello is not arguing for another national lockdown."
+
+Position to Know:
+
+"Major Premise: Source a is in position to know about things in a certain subject domain S containing proposition A.
+Minor Premise: a asserts that A is true (false).
+Conclusion: A is true (false)."
+
+Position to Know Argument:
+
+"Nelufar Hedayat went to a place called Skater Stan, and she met young girls wearing their traditional Afghan clothes going up and down these huge skateparks that they had built because the war in Afghanistan gave a generation hope. the war in Afghanistan was fought to some degree for the children."
+
+Witness Testimony:
+
+"Position to Know Premise : Witness W is in a position to know whether A is true or not.
+Truth Telling Premise : Witness W is telling the truth (as W knows it).
+Statement Premise : Witness W states that A is true (false).
+Conclusion: A may be plausibly taken to be true (false)."
+
+Witness Testimony Argument:
+
+"the teachers of Sam Unkown's boys have worked so hard with the kids. it is so unfair that the funding for school catch-up is not going to be there."
+
+Practical Reasoning Arguments:
+
+This family comprises Consequences, Practical Reasoning, Sunk Costs, Threat, and Waste arguments defined as follows together with some sample arguments:
+
+Consequences:
+
+"Premise: If A is brought about, good (bad) consequences will plausibly occur.
+Conclusion: Therefore, A should (not) be brought about."
+
+Consequences Argument:
+
+"unless we start putting leverage on the Taliban in order to put pressure on them not to allow Afghanistan to descend into a haven for terrorists. we will reap the benefits."
+
+Practical Reasoning:
+
+"Goal Premise : Bringing about Sn is my goal.
+Means Premise : In order to bring about Sn, I need to bring about Si .
+Conclusion: Therefore, I need to bring about Si ."
+
+Practical Reasoning Argument
+
+"ultimately, the fans are what the game is all about. Robert Jenrick hopes we can use this as an opportunity to make the game more dynamic, more democratic and more in the interests of the fan."
+
+Sunk Costs:
+
+"t1: Time of the proponent’s commitment to a certain action (pre-commitment)
+t2: Time of proponent’s confrontation with the decision whether carry out the pre-commitment or not.
+Premise 1: There is a choice at t2 between A and not-A.
+Premise 2: At t2 I am pre-committed to A because of what I did or committed myself to at t1.
+Conclusion: Therefore, I should choose A."
+
+Sunk Costs Argument:
+
+"we haven't done well but we haven't done as badly as some other countries. let's move forward, get the population vaccinated, get out of it and move forward with sensible ideas that will allow us to regain our lives."
+
+Threat:
+
+"Premise 1: If you bring about A, some cited bad consequences, B, will follow.
+Premise 2: I am in position to bring about B.
+Premise 3: I hereby assert that in fact I will see to it that B occurs if you bring about A.
+Conclusion: Therefore, you had better not bring about A."
+
+Threat Argument:
+
+"the Taliban are worried in the next month or six weeks, there will be a NATO attack, some sort of land - there will be troops on the ground. the Taliban are on their best behaviour."
+
+Waste:
+
+"Premise 1: If a stops trying to realize A now, all a’s previous efforts to realize A will be wasted.
+Premise 2: If all a’s previous attempts to realize A are wasted, that would be a bad thing.
+Conclusion: Therefore, a ought to continue trying to realize A."
+
+Waste Argument:
+
+"we need to make sure that we embed the successes that we have had. there is still work to do."
+
+Chained Arguments with Rules and Cases:
+
+This family comprises Slippery Slope arguments defined as follows together with some sample arguments:
+
+Slippery Slope:
+
+"First Step Premise : A0 is up for consideration as a proposal that seems initially like something that should be brought about.
+Recursive Premise : Bringing up A0 would plausibly lead (in the given circumstances, as far as we know) to A1, which would in turn plausibly lead to A2, and so forth, through the sequence A2, . . . An.
+Bad Outcome Premise : An is a horrible (disastrous, bad) outcome.
+Conclusion: A0 should not be brought about."
+
+Slippery Slope Argument:
+
+"people will not be skilled for the jobs that will be needed in the post-COVID economy. in five years' time the education budget cut will be failing business."
+
+Classify the following argument into one of the 8 classes: Ad Hominem Arguments, Arguments Based on Cases, Defeasible Rule-based Arguments, Discovery Arguments, Popular Acceptance Arguments, Position to Know Arguments, Practical Reasoning Arguments, and Chained Arguments with Rules and Cases.
+
+In your answer, provide first the name of the scheme family in your output as follows **family name**, followed by a short explanation supporting this decision.
+
+ARGUMENT:

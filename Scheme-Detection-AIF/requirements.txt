@@ -1,0 +1,6 @@
+torch
+pandas
+numpy
+transformers
+datasets
+accelerate>=0.21.0

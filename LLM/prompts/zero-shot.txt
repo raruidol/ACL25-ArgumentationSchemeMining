@@ -1,0 +1,139 @@
+You are a 22 class classifier with the goal of classifying the argumentative input into one of the different argumentation scheme classes. Argumentation schemes are defined as follows:
+
+Direct Ad Hominem:
+
+"Premise: a is a person of bad character.
+Conclusion: Therefore, a’s argument should not be accepted."
+
+Inconsistent Commitment:
+
+"Initial Commitment Premise : a has claimed or indicated that he is committed to proposition A (generally, or by virtue of what he has said in the past).
+Opposed Commitment Premise : Other evidence in this particular case shows that a is not really committed to A.
+Conclusion: a’s commitments are inconsistent."
+
+Cause to Effect:
+
+"Major Premise : Generally, if A occurs, then B will (might) occur.
+Minor Premise : In this case, A occurs (might occur).
+Conclusion: Therefore, in this case, B will (might) occur."
+
+Established Rule:
+"Major Premise : If carrying out types of actions including A is the established rule for x, then (unless the case is an exception), x must carry out A.
+Minor Premise : Carrying out types of actions including A is the established rule for a.
+Conclusion: Therefore, a must carry out A."
+
+Verbal Classification:
+
+"Individual Premise : a has property F.
+Classification Premise: For all x, if x has property F, then x can be classified as having property G.
+Conclusion: a has property G."
+
+Analogy:
+
+"Similarity Premise : Generally, case C1 is similar to case C2.
+Base Premise : A is true (false) in case C1.
+Conclusion: A is true (false) in case C2."
+
+Example:
+"Premise : In this particular case, the individual a has property F and also property G.
+Conclusion: Therefore, generally, if x has property F, then it also has property G."
+
+Precedent:
+"Major Premise : Generally, according to the established rule, if x has property F, then x also has property G.
+Minor Premise : In this legitimate case, a has F but does not have G.
+Conclusion: Therefore, an exception to the rule must be recognized, and the rule appropriately modified or qualified."
+
+Best Explanation:
+
+"F is a finding or given set of facts.
+E is a satisfactory explanation of F.
+No alternative explanation E1 ... n given so far is as satisfactory as E.
+Therefore, E is plausible, as a hypothesis"
+
+Ignorance:
+
+"Major Premise: If A were true, then A would be known to be true.
+Minor Premise : It is not the case that A is known to be true.
+Conclusion: Therefore, A is not true."
+
+Sign:
+
+"Specific Premise : A (a finding) is true in this situation.
+General Premise : B is generally indicated as true when its sign, A, is true.
+Conclusion: B is true in this situation."
+
+Popular Opinion:
+
+"General Acceptance Premise : A is generally accepted as true.
+Presumption Premise: If A is generally accepted as true, that gives a reason in favor of A.
+Conclusion: There is a reason in favor of A."
+
+Popular Practice:
+
+"Major Premise : A is a popular practice among those who are familiar with what is acceptable or not in regard to A.
+Minor Premise: If A is a popular practice among those familiar with what is acceptable or not with regard to A, that gives a reason to think that A is acceptable.
+Conclusion: Therefore, A is acceptable in this case."
+
+Expert Opinion:
+
+"Major Premise: Source E is an expert in subject domain S containing proposition A.
+Minor Premise : E asserts that proposition A is true (false).
+Conclusion: A is true (false)."
+
+Position to Know:
+
+"Major Premise: Source a is in position to know about things in a certain subject domain S containing proposition A.
+Minor Premise: a asserts that A is true (false).
+Conclusion: A is true (false)."
+
+Witness Testimony:
+
+"Position to Know Premise : Witness W is in a position to know whether A is true or not.
+Truth Telling Premise : Witness W is telling the truth (as W knows it).
+Statement Premise : Witness W states that A is true (false).
+Conclusion: A may be plausibly taken to be true (false)."
+
+Consequences:
+
+"Premise: If A is brought about, good (bad) consequences will plausibly occur.
+Conclusion: Therefore, A should (not) be brought about."
+
+Practical Reasoning:
+
+"Goal Premise : Bringing about Sn is my goal.
+Means Premise : In order to bring about Sn, I need to bring about Si .
+Conclusion: Therefore, I need to bring about Si ."
+
+Sunk Costs:
+
+"t1: Time of the proponent’s commitment to a certain action (pre-commitment)
+t2: Time of proponent’s confrontation with the decision whether carry out the pre-commitment or not.
+Premise 1: There is a choice at t2 between A and not-A.
+Premise 2: At t2 I am pre-committed to A because of what I did or committed myself to at t1.
+Conclusion: Therefore, I should choose A."
+
+Threat:
+
+"Premise 1: If you bring about A, some cited bad consequences, B, will follow.
+Premise 2: I am in position to bring about B.
+Premise 3: I hereby assert that in fact I will see to it that B occurs if you bring about A.
+Conclusion: Therefore, you had better not bring about A."
+
+Waste:
+
+"Premise 1: If a stops trying to realize A now, all a’s previous efforts to realize A will be wasted.
+Premise 2: If all a’s previous attempts to realize A are wasted, that would be a bad thing.
+Conclusion: Therefore, a ought to continue trying to realize A."
+
+Slippery Slope:
+
+"First Step Premise : A0 is up for consideration as a proposal that seems initially like something that should be brought about.
+Recursive Premise : Bringing up A0 would plausibly lead (in the given circumstances, as far as we know) to A1, which would in turn plausibly lead to A2, and so forth, through the sequence A2, . . . An.
+Bad Outcome Premise : An is a horrible (disastrous, bad) outcome.
+Conclusion: A0 should not be brought about."
+
+Classify the following argument into one of the 22 classes: Direct Ad Hominem, Inconsistent Commitment, Cause To Effect, Established Rule, Verbal Classification, Analogy, Example, Precedent, Best Explanation, Ignorance, Sign, Popular Opinion, Popular Practice, Expert Opinion, Position To Know, Witness Testimony, Consequences, Practical Reasoning, Sunk Costs, Threat, Waste, Slippery Slope.
+
+In your answer, provide first the name of the scheme in your output as follows **scheme name**, followed by a short explanation supporting this decision.
+
+ARGUMENT:

@@ -1,0 +1,282 @@
+You are an 8 class classifier with the goal of classifying the argumentative input into one of the different argumentation scheme families. Argumentation scheme families are defined as follows:
+
+Ad Hominem Arguments:
+
+This family comprises Direct ad Hominem and Inconsistent Commitment arguments defined as follows together with some sample arguments:
+
+Direct Ad Hominem:
+
+"Premise: a is a person of bad character.
+Conclusion: Therefore, a’s argument should not be accepted."
+
+Direct Ad Hominem Argument:
+
+"character attack premise: Persons who advocate for euthanasia are heartless and lack compassion for the terminally ill.
+conclusion: The argument for euthanasia should not be accepted because it is coming from individuals who lack empathy and basic human decency."
+
+Inconsistent Commitment:
+
+"Initial Commitment Premise : a has claimed or indicated that he is committed to proposition A (generally, or by virtue of what he has said in the past).
+Opposed Commitment Premise : Other evidence in this particular case shows that a is not really committed to A.
+Conclusion: a’s commitments are inconsistent."
+
+Inconsistent Commitment Argument:
+
+"initial commitment premise: The government has claimed that they are committed to ensuring public health and safety during pandemics.
+opposed commitment premise: However, the government has not implemented mandatory vaccinations, which is a proven method to prevent the spread of diseases and protect public health. This shows that their commitment to public health is not consistent with their actions.
+conclusion: The government's commitments regarding public health are inconsistent when it comes to implementing mandatory vaccinations during pandemics."
+
+Arguments Based on Cases:
+
+This family comprises Cause to Effect, Established Rule, and Verbal Classification arguments defined as follows together with some sample arguments:
+
+Cause to Effect:
+
+"Major Premise : Generally, if A occurs, then B will (might) occur.
+Minor Premise : In this case, A occurs (might occur).
+Conclusion: Therefore, in this case, B will (might) occur."
+
+Cause to Effect Argument:
+
+"major premise: Generally, if a person is terminally ill and suffering greatly, continued medical treatment may not alleviate their pain or improve their quality of life.
+minor premise: In this case, a person is terminally ill and suffering greatly.
+conclusion: Therefore, in this case, allowing euthanasia as an option may alleviate their pain and end their suffering."
+
+Established Rule:
+"Major Premise : If carrying out types of actions including A is the established rule for x, then (unless the case is an exception), x must carry out A.
+Minor Premise : Carrying out types of actions including A is the established rule for a.
+Conclusion: Therefore, a must carry out A."
+
+Established Rule Argument:
+
+"major premise: If carrying out types of actions including euthanasia is the established rule for terminal patients experiencing unbearable suffering, then (unless the case is an exception), terminal patients experiencing unbearable suffering must have access to euthanasia.
+minor premise: Carrying out types of actions including euthanasia is the established rule for terminal patients experiencing unbearable suffering.
+conclusion: Therefore, terminal patients experiencing unbearable suffering must have access to euthanasia."
+
+Verbal Classification:
+
+"Individual Premise : a has property F.
+Classification Premise: For all x, if x has property F, then x can be classified as having property G.
+Conclusion: a has property G."
+
+Verbal Classification Argument:
+
+"individual premise: Terminally ill patients are suffering in unbearable pain.
+classification Premise: For all individuals who are suffering in unbearable pain, if their suffering cannot be alleviated, then they can be classified as having a right to euthanasia.
+conclusion: Terminally ill patients have a right to euthanasia."
+
+Defeasible Rule-based Arguments:
+
+This family comprises Analogy, Example, and Precedent arguments defined as follows together with some sample arguments:
+
+Analogy:
+
+"Similarity Premise : Generally, case C1 is similar to case C2.
+Base Premise : A is true (false) in case C1.
+Conclusion: A is true (false) in case C2."
+
+Analogy Argument:
+
+"similarity premise: Generally, when a pet is suffering and has no chance of recovery, it is often considered humane to euthanize them to end their suffering.
+base premise: If a human is suffering and has no chance of recovery, it should be just as humane to allow them the choice of euthanasia to end their suffering.
+conclusion: Therefore, if euthanasia is considered humane for pets, it should also be considered humane for humans who are suffering and have no chance of recovery."
+
+Example:
+"Premise : In this particular case, the individual a has property F and also property G.
+Conclusion: Therefore, generally, if x has property F, then it also has property G."
+
+Example Argument:
+
+"premise: In this particular case, John has terminal cancer and also the right to die with dignity through euthanasia.
+conclusion: Therefore, generally, if any individual has terminal cancer, then they also have the right to die with dignity through euthanasia."
+
+Precedent:
+"Major Premise : Generally, according to the established rule, if x has property F, then x also has property G.
+Minor Premise : In this legitimate case, a has F but does not have G.
+Conclusion: Therefore, an exception to the rule must be recognized, and the rule appropriately modified or qualified."
+
+Precedent Argument:
+
+"major premise: Generally, according to the established rule, if an individual has the right to autonomy and bodily integrity, then they have the right to refuse medical treatment.
+minor premise: In this legitimate case, a terminally ill patient has the right to autonomy and bodily integrity, but does not have the ability to refuse medical treatment as it would only prolong their suffering without any improvement in their condition.
+conclusion: Therefore, an exception to the rule must be recognised, and the rule appropriately modified or qualified to allow for voluntary euthanasia in cases where the patient has a terminal illness and their suffering cannot be alleviated through other means."
+
+Discovery Arguments:
+
+This family comprises Best Explanation, Ignorance, and Sign arguments defined as follows together with some sample arguments:
+
+Best Explanation:
+
+"F is a finding or given set of facts.
+E is a satisfactory explanation of F.
+No alternative explanation E1 ... n given so far is as satisfactory as E.
+Therefore, E is plausible, as a hypothesis"
+
+Best Explanation Argument:
+
+"Premise 1: People experiencing unbearable and uncontrollable pain due to terminal illnesses have the right to die with dignity and without suffering.
+Premise 2: Euthanasia provides a humane option for individuals to choose when facing an irreparable state of pain and suffering, and it entails a peaceful, painless, and dignified death.
+Premise 3: No alternative explanation has been presented that would be as compassionate and respectful of human autonomy and dignity towards people who are terminally ill.
+Conclusion: Therefore, euthanasia is a plausible and ethical solution to allow people to die with dignity and without excessive suffering."
+
+Ignorance:
+
+"Major Premise: If A were true, then A would be known to be true.
+Minor Premise : It is not the case that A is known to be true.
+Conclusion: Therefore, A is not true."
+
+Ignorance Argument:
+
+"major premise: If 'Euthanasia is morally wrong' were true, then 'Euthanasia is morally wrong' would be globally accepted as undeniable truth.
+minor premise: It is not the case that 'Euthanasia is morally wrong' is globally accepted as undeniable truth.
+conclusion: Therefore, 'Euthanasia is morally wrong' is not true."
+
+Sign:
+
+"Specific Premise : A (a finding) is true in this situation.
+General Premise : B is generally indicated as true when its sign, A, is true.
+Conclusion: B is true in this situation."
+
+Sign Argument:
+
+"specific premise: Patients with irreversible conditions often experience extreme, prolonged suffering.
+general premise: Euthanasia is generally indicated as a compassionate option when its sign, extreme, prolonged suffering in patients with irreversible conditions, is true.
+conclusion: Euthanasia is a compassionate option in this situation."
+
+Popular Acceptance Arguments:
+
+This family comprises Popular Opinion and Popular Practice arguments defined as follows together with some sample arguments:
+
+Popular Opinion:
+
+"General Acceptance Premise : A is generally accepted as true.
+Presumption Premise: If A is generally accepted as true, that gives a reason in favor of A.
+Conclusion: There is a reason in favor of A."
+
+Popular Opinion Argument:
+
+"general acceptance premise: The right to die is a fundamental human right and individuals should have the freedom to choose death with dignity.
+presumption premise: If the right to die is considered a fundamental human right, individuals should have the autonomy to make decisions regarding their own death without interference.
+conclusion: There is a reason in favor of euthanasia as it supports the fundamental human right of individuals to choose death with dignity."
+
+Popular Practice:
+
+"Major Premise : A is a popular practice among those who are familiar with what is acceptable or not in regard to A.
+Minor Premise: If A is a popular practice among those familiar with what is acceptable or not with regard to A, that gives a reason to think that A is acceptable.
+Conclusion: Therefore, A is acceptable in this case."
+
+Popular Practice Argument:
+
+"major premise: Euthanasia is a popular practice among medical professionals who are familiar with what is acceptable or not in regard to end-of-life care.
+minor premise: If euthanasia is a popular practice among medical professionals who are familiar with what is acceptable or not in regard to end-of-life care, that gives a reason to think that euthanasia is acceptable.
+conclusion: Therefore, euthanasia is acceptable in this case."
+
+Position to Know Arguments:
+
+This family comprises Expert Opinion, Position to Know, and Witness Testimony arguments defined as follows together with some sample arguments:
+
+Expert Opinion:
+
+"Major Premise: Source E is an expert in subject domain S containing proposition A.
+Minor Premise : E asserts that proposition A is true (false).
+Conclusion: A is true (false)."
+
+Expert Opinion Argument:
+
+"major premise: Dr. Jack Kevorkian is an expert in the field of assisted suicide and end-of-life care.
+minor premise: Dr. Kevorkian asserts that euthanasia should be legalized and made available to terminally ill patients who are suffering intolerable pain and have no hope for recovery.
+conclusion: Euthanasia should be legalized and made available to terminally ill patients who are suffering intolerable pain and have no hope for recovery because Dr. Kevorkian is an expert in the field of assisted suicide and end-of-life care and asserts that this is the best course of action."
+
+Position to Know:
+
+"Major Premise: Source a is in position to know about things in a certain subject domain S containing proposition A.
+Minor Premise: a asserts that A is true (false).
+Conclusion: A is true (false)."
+
+Position to Know Argument:
+
+"major premise: Health professionals, such as doctors and epidemiologists, are in position to know about things in the subject domain of infectious diseases and their prevention.
+minor premise: Health professionals assert that mandatory vaccination in a pandemic is crucial to prevent the spread of disease and protect public health.
+conclusion: Mandatory vaccination in a pandemic is necessary and true based on the expertise and knowledge of health professionals."
+
+Witness Testimony:
+
+"Position to Know Premise : Witness W is in a position to know whether A is true or not.
+Truth Telling Premise : Witness W is telling the truth (as W knows it).
+Statement Premise : Witness W states that A is true (false).
+Conclusion: A may be plausibly taken to be true (false)."
+
+Witness Testimony Argument:
+
+"Position to Know Premise: As a registered nurse who has worked in palliative care and witnessed terminally ill patients suffer, I am in a position to know whether euthanasia can alleviate their pain or not.
+Truth Telling Premise: As a healthcare professional, it is my duty to always tell the truth, and I testify that euthanasia can provide relief to those who are terminally ill and suffering greatly.
+Statement Premise: In my experience, I have seen patients who have opted for euthanasia experience a peaceful passing, free from pain and suffering.
+Conclusion: Based on my experience and testimony, it can be plausibly taken to be true that euthanasia can relieve the pain and suffering of terminally ill patients."
+
+Practical Reasoning Arguments:
+
+This family comprises Sunk Costs, Threat, and Waste arguments defined as follows together with some sample arguments:
+
+Sunk Costs:
+
+"t1: Time of the proponent’s commitment to a certain action (pre-commitment)
+t2: Time of proponent’s confrontation with the decision whether carry out the pre-commitment or not.
+Premise 1: There is a choice at t2 between A and not-A.
+Premise 2: At t2 I am pre-committed to A because of what I did or committed myself to at t1.
+Conclusion: Therefore, I should choose A."
+
+Sunk Costs Argument:
+
+"premise 1: There is a choice at the end-of-life between euthanasia and not choosing euthanasia.
+premise 2: At some point in my life, I have likely invested significant time, energy, and resources into creating an end-of-life plan that includes euthanasia as a viable option.
+conclusion: Therefore, I should choose euthanasia as my end-of-life option because I have already made a significant investment in considering it and planning for it."
+
+Threat:
+
+"Premise 1: If you bring about A, some cited bad consequences, B, will follow.
+Premise 2: I am in position to bring about B.
+Premise 3: I hereby assert that in fact I will see to it that B occurs if you bring about A.
+Conclusion: Therefore, you had better not bring about A."
+
+Threat Argument:
+
+"premise 1: If euthanasia is allowed, it could potentially lead to the abuse of the elderly or disabled, who may feel pressured to end their lives to relieve others of the burden of caring for them.
+premise 2: I am in a position to report cases of such abuse and prevent it from happening.
+premise 3: I hereby assert that in fact I will do everything in my power to prevent such abuse if euthanasia is allowed.
+conclusion: Therefore, it is better not to legalize euthanasia, as it poses a threat of abuse to vulnerable individuals."
+
+Waste:
+
+"Premise 1: If a stops trying to realize A now, all a’s previous efforts to realize A will be wasted.
+Premise 2: If all a’s previous attempts to realize A are wasted, that would be a bad thing.
+Conclusion: Therefore, a ought to continue trying to realize A."
+
+Waste Argument:
+
+"premise 1: If an individual is terminally ill and cannot be cured, all efforts to prolong their life will be futile and will only cause unnecessary pain and suffering.
+premise 2: If the individual's suffering is prolonged and cannot be alleviated, this would be a bad thing for both the individual and their loved ones.
+conclusion: Therefore, the option of euthanasia should be available for terminally ill patients as a way to end their pain and suffering and prevent their efforts to prolong life from being wasted."
+
+Chained Arguments with Rules and Cases:
+
+This family comprises Slippery Slope arguments defined as follows together with some sample arguments:
+
+Slippery Slope:
+
+"First Step Premise : A0 is up for consideration as a proposal that seems initially like something that should be brought about.
+Recursive Premise : Bringing up A0 would plausibly lead (in the given circumstances, as far as we know) to A1, which would in turn plausibly lead to A2, and so forth, through the sequence A2, . . . An.
+Bad Outcome Premise : An is a horrible (disastrous, bad) outcome.
+Conclusion: A0 should not be brought about."
+
+Slippery Slope Argument:
+
+"first step premise: Euthanasia is up for consideration as a proposal that seems initially like something that should be brought about.
+recursive premise: Bringing up Euthanasia would plausibly lead (in the given circumstances, as far as we know) to the normalization of suicide, which would in turn plausibly lead to increased suicide rates, more depressed people, and a culture that views death as a solution for every problem.
+bad outcome premise: A culture that views death as a solution for every problem is a horrible outcome that would lead to more suffering and destruction.
+conclusion: Euthanasia should not be brought about."
+
+Classify the following argument into one of the 8 classes: Ad Hominem Arguments, Arguments Based on Cases, Defeasible Rule-based Arguments, Discovery Arguments, Popular Acceptance Arguments, Position to Know Arguments, Practical Reasoning Arguments, and Chained Arguments with Rules and Cases.
+
+In your answer, provide first the name of the scheme family in your output as follows **family name**, followed by a short explanation supporting this decision.
+
+ARGUMENT:
