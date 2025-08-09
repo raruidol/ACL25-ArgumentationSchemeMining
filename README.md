@@ -1,6 +1,6 @@
 # Argumentation Scheme Mining - ACL 2025 (Main conference)
 
-Code used for the ["Mining Complex Patterns of Argumentative Reasoning in Natural Language Dialogue"](https://aclanthology.org/2025.acl-main.xxx.pdf) paper published at the ACL 2025 conference.
+Code used for the ["Mining Complex Patterns of Argumentative Reasoning in Natural Language Dialogue"](https://aclanthology.org/2025.acl-long.368/) paper published at the ACL 2025 conference.
 
 Cite with BibTex:
 
@@ -14,7 +14,8 @@ Cite with BibTex:
     year = "2025",
     address = "Vienna, Austria",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2025.acl-main.xxx/",
-    pages = "a--b"
+    url = "https://aclanthology.org/2025.acl-long.368/",
+    pages = "7421--7435",
+    ISBN = "979-8-89176-251-0"
 }
 ```
